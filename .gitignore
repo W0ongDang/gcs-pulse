@@ -22,6 +22,7 @@ pnpm-debug.log*
 logs/
 
 # Python packaging
+.venv/
 *.egg-info/
 __pycache__/
 
