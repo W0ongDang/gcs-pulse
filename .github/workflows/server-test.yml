@@ -27,7 +27,7 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Ensure pytest installed
-        run: python -m pip install pytest
+        run: python -m pip install pytest pytest-asyncio
 
       - name: Run pytest
         run: pytest

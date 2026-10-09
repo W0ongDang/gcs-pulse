@@ -225,6 +225,8 @@ app.add_middleware(
 app.add_middleware(LoggingMiddleware)
 
 # Include Routers
+from app.routers import camp_attendance
+app.include_router(camp_attendance.router)
 app.include_router(auth.router)
 app.include_router(terms.router)
 app.include_router(tokens.router)
